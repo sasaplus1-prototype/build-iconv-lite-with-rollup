@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^3.22.0"
+  },
+  "private": true,
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
